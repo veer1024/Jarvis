@@ -1,6 +1,6 @@
 # Jarvis
 ## **Description**
-### it is a cloud based tool for information gathering and reccon purpose , it is a Combination of Python Automation,cronjobs and aws cloud services,it consume little amount of data for single target, it is Easy to Launch , it will notify you via email about the Attack Status. Run on aws (VPC , EC2 , s3 bucket , s3 glacier ...) , it will also push all data to S3 Bucket
+### it is a cloud based tool for information gathering and reccon purpose , it is a Combination of Python Automation, cronjobs, docker, apache2 and aws cloud services,it consume little amount of data for single target, it is Easy to Launch , it will notify you via email about the Attack Status. Run on aws ( EC2 , s3 bucket , etc) , it will also push all data to S3 Bucket
 
 ### Attack can be triger just by sending an email to Jarvis mail id or by using Jarvis tool
 
