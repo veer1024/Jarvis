@@ -1,4 +1,5 @@
 #!/bin/bash
+python3 banner2.py
 #read -p "Enter email you have assigned to jarvis: " jarvis
 jarvis="noneed@gmail.com"
 #read -p "Enter password for jarvis: " jarvis_pass
