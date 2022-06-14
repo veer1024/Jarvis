@@ -19,7 +19,8 @@
 ### Currently the email notification is not working, since google has recently disabled access to inbox from less secure application. we are looking for alternative and will update here soon.
 
 ## Installation guide 
-
+check this medium blog for the installation guide 
+> https://hackpeas.medium.com/jarvis-automated-bug-hunting-tool-reconnaissance-tool-b8071d88ecc5
 
 
 > https://drive.google.com/file/d/1nT7cITiK-e9SzxnPhW86oqsfNo3Su-DZ/view
