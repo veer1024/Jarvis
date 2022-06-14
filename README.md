@@ -140,5 +140,17 @@ To download all the collected data for example.com run the below command in the 
 
 you can see a new folder with name "example.com", which contains all the data collected from the attack.
 
+If you like the tool, give it a star on Github and clap on this post
+
+For more DevOps, CTFs and bug bounty writeup, or content related to ethical hacking, android penetration testing. follow me on:
+
+Medium: https://hackpeas.medium.com
+Youtube: https://www.youtube.com/channel/UC17W_Ircv7EmIIdbJeOQ_BQ
+Instagram: https://www.instagram.com/hackpeas/
+Linkedin: https://www.linkedin.com/in/viraj-vaishnav-19b0a61aa/
+Twitter: https://twitter.com/VirajVaishnav16
+
+Thank You..
+
 
 
