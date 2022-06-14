@@ -112,5 +112,17 @@ In above image, target is added in the pending list of both the remaining VPS, a
 
 ![image](https://user-images.githubusercontent.com/60743167/173660332-a4461713-d2c6-4dd5-a7b3-2dbbea0d2fca.png)
 
+Same kinda status, you can also see at /current.txt 
 
+![image](https://user-images.githubusercontent.com/60743167/173662159-f24b6f70-92fc-46aa-b908-e4fd0498c5fb.png)
 
+Now here the attack is done, target is removed from all pending list, and all the VPS are in Notworking state
+
+![image](https://user-images.githubusercontent.com/60743167/173663208-69235e43-b2e6-4392-b2ab-3d827116876c.png)
+
+## Downloading the data collected from s3 bucket
+you can download all the files, directly from the s3 bucket or use the download.py script for this task
+
+in your local computer 
+
+> $ git clone https://github.com/veer1024/jarvis.git && cd Jarvis
