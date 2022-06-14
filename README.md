@@ -1,19 +1,21 @@
 # Jarvis
 ## **Description**
-### it is a cloud based tool for information gathering and reccon purpose , it is a Combination of Python Automation, cronjobs, docker, apache2 and aws cloud services,it consume little amount of data for single target, it is Easy to Launch , it will notify you via email about the Attack Status. Run on aws ( EC2 , s3 bucket , etc) , it will also push all data to S3 Bucket
+### it is a cloud/container based tool for information gathering and reconnaissance purpose , it is a combination of python automation, cronjobs, docker, apache2 and aws cloud services,it consume little amount of data for single target, it is easy to launch , it will notify you via email about the Attack Status. run on aws ( EC2 , s3 bucket , etc) , it will also push all data to S3 Bucket
 
-### Attack can be triger just by sending an email to Jarvis mail id or by using Jarvis tool
+### Attack can be triger by using web portal of Jarvis
 
 ## what it will do 
-- subdomain enumeration
+- subdomain enumeration via many different tools like amass, subfinder, github-subdomain, sublist3r and assetfinder. so you won't miss any subdomain.
 - directory brute force for 403 , and 404. check 404 for subdomain takeover.
 - give a table for all alive subdomains along with their Status Code and title
-- it will give set of urls for open redirect , SSRF , idor , sqli , rce .
-- list out all aws s3 bucket linked to the target or used by target for importing any data via GET request , and do check for misconfigured buckets
+- it will give set of urls for open redirect , SSRF , idor , sqli , rce. it uses gau and waybackurls for collecting all urls.
+- it will give you a list of url possibly vulnerble for XSS, it also check for the parameter reflection.
+- list out all aws s3 bucket linked to the target or used by target for importing any data via GET request , and do check for misconfigured buckets.
 - list out all web pages which are using WordPress and also do a check for enabled xmlrpc api.
+- collect all s3 buckets which are disclosed in any html/js file of the domain.
 
 # **Note**
-### Currently the source code is not public yet , we are working on it , but you can look at below preview video 
+### Currently the email notification is not working, since google has recently disabled access to inbox from less secure application. we are looking for alternative and will update here soon.
 
 
 > https://drive.google.com/file/d/1nT7cITiK-e9SzxnPhW86oqsfNo3Su-DZ/view
