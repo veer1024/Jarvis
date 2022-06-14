@@ -1,4 +1,7 @@
 #!/bin/bash
+apt-get -y install python3 2>/dev/null 1>&2
+apt-get -y install python3-pip 2>/dev/null 1>&2
+pip3 install -r requirements.txt 2>/dev/null 1>&2
 python3 banner2.py
 #read -p "Enter email you have assigned to jarvis: " jarvis
 jarvis="noneed@gmail.com"
