@@ -4,7 +4,7 @@
 
 ### Attack can be triger by using web portal of Jarvis
 
-## what it will do 
+## What it will do 
 - subdomain enumeration via many different tools like amass, subfinder, github-subdomain, sublist3r and assetfinder. so you won't miss any subdomain.
 - directory brute force for 403 , and 404. check 404 for subdomain takeover.
 - give a table for all alive subdomains along with their Status Code and title
@@ -16,6 +16,9 @@
 
 # **Note**
 ### Currently the email notification is not working, since google has recently disabled access to inbox from less secure application. we are looking for alternative and will update here soon.
+
+## Installation guide 
+
 
 
 > https://drive.google.com/file/d/1nT7cITiK-e9SzxnPhW86oqsfNo3Su-DZ/view
