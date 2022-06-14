@@ -49,7 +49,7 @@ This two sections are used to configure, S3 bucket, AWS user keys, and github TO
 ![image](https://user-images.githubusercontent.com/60743167/173638248-27531fbe-7c42-46bf-8fa6-fa67fc2087b7.png)
 
 This tab shown the current status of Jarvis, 
-Jarvis consist of 3 VPS 
+Jarvis consist of 4 VPS 
 - subfinder 
 - URL collector 
 - Domain status 
