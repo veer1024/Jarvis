@@ -38,6 +38,41 @@ and the web page will look like this
 
 From now onwards, everything will be handled on web portal only
 
-#admin tab
+# Admin tab
+
+![image](https://user-images.githubusercontent.com/60743167/173638028-d2a514c8-9409-4f63-a307-1a06fdb7b23b.png)
+
+This two sections are used to configure, S3 bucket, AWS user keys, and github TOKENSFILE.
+
+# Attack status
+
+![image](https://user-images.githubusercontent.com/60743167/173638248-27531fbe-7c42-46bf-8fa6-fa67fc2087b7.png)
+
+This tab shown the current status of Jarvis, 
+Jarvis consist of 3 VPS 
+- subfinder 
+- URL collector 
+- Domain status 
+- Git dorker
+
+Git dorker is currently inactive.
+but as the attack will start/running on any of vps, it will shown here.
+you can also check the status of attack on page -> /current.txt
+
+# Contact / About
+
+![image](https://user-images.githubusercontent.com/60743167/173638742-e593c25c-f1de-4da2-b89d-b95794f13509.png)
+
+From here, you can contact us, for any kinda assitance.
+
+# Home
+
+![image](https://user-images.githubusercontent.com/60743167/173639004-955f2d20-8164-4700-8d33-338b71abe0a5.png)
+
+The first section is to launch new attack 
+To launch the new attack, you just have to mention the target domain, say example.com and click on launch attack.
+After the successful launch, keep your eye on attack-status tab, for the attack status. once the target domain is removed from pending of all the the vps, you can download the data.
+
+##
 
 
