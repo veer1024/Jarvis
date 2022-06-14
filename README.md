@@ -73,6 +73,38 @@ The first section is to launch new attack
 To launch the new attack, you just have to mention the target domain, say example.com and click on launch attack.
 After the successful launch, keep your eye on attack-status tab, for the attack status. once the target domain is removed from pending of all the the vps, you can download the data.
 
-##
+## launching attack 
+
+all the VPS works in an order -> first subfinder will launch -> after subfinder is done -> URL collector and Domain status checker will launch together
+Note: Gitdorker is currently inactive.
+Put the target domain -> click on launch attack
+
+
+![image](https://user-images.githubusercontent.com/60743167/173656483-1d1256ab-097e-4d59-a347-a6403b9c1725.png)
+
+![image](https://user-images.githubusercontent.com/60743167/173656542-cc1598d0-7c99-4fde-9aac-d62b3e87be0b.png)
+
+In below image you can see, target comes under subfinder pending list
+
+![image](https://user-images.githubusercontent.com/60743167/173656752-c11a68c1-3f1d-44ae-97f1-72632484fecc.png)
+
+After few seconds, subfinder will start working and its state will change from Notworking to working
+
+![image](https://user-images.githubusercontent.com/60743167/173656981-21d63f51-7513-47b3-b2d9-a5aa8032c2bd.png)
+
+After subfinder will collect all the subdomains, and s3 bucket list, it will push it to the user defined s3 bucket, and initiate the attack for URL Collector and Domain Status checker VPS.
+
+After few seconds, you can see a folder in your S3 bucket 
+
+![image](https://user-images.githubusercontent.com/60743167/173659559-4e6b22d2-3464-4055-bb74-70e0e4fc0e63.png)
+
+Consist of a file containing all enumerated subdomains 
+
+![image](https://user-images.githubusercontent.com/60743167/173659680-0955af6d-3c10-4a8a-af34-a37ee44d0211.png)
+
+Now, Subfinder work is almost done, and it will initiate the attack for other VPS at any moment
+
+
+
 
 
