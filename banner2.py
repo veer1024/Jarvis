@@ -1,6 +1,6 @@
 import requests
 import re
-from prettytable import PrettyTable
+#from prettytable import PrettyTable
 import pyfiglet
 import argparse
 #colors

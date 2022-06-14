@@ -1,5 +1,4 @@
 boto3==1.13.14
 easyimap==0.7.0
-prettytable==0.7.2
 pyfiglet==0.8.post1
 requests==2.25.1
