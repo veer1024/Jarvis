@@ -70,6 +70,7 @@ From here, you can contact us, for any kinda assitance.
 ![image](https://user-images.githubusercontent.com/60743167/173639004-955f2d20-8164-4700-8d33-338b71abe0a5.png)
 
 The first section is to launch new attack 
+
 To launch the new attack, you just have to mention the target domain, say example.com and click on launch attack.
 After the successful launch, keep your eye on attack-status tab, for the attack status. once the target domain is removed from pending of all the the vps, you can download the data.
 
@@ -77,7 +78,8 @@ After the successful launch, keep your eye on attack-status tab, for the attack 
 
 all the VPS works in an order -> first subfinder will launch -> after subfinder is done -> URL collector and Domain status checker will launch together
 Note: Gitdorker is currently inactive.
-Put the target domain -> click on launch attack
+
+Fill the target domain -> click on launch attack
 
 
 ![image](https://user-images.githubusercontent.com/60743167/173656483-1d1256ab-097e-4d59-a347-a6403b9c1725.png)
@@ -102,9 +104,13 @@ Consist of a file containing all enumerated subdomains
 
 ![image](https://user-images.githubusercontent.com/60743167/173659680-0955af6d-3c10-4a8a-af34-a37ee44d0211.png)
 
-Now, Subfinder work is almost done, and it will initiate the attack for other VPS at any moment
+Now, Subfinder work is almost done, and it will initiate the attack for other VPS at any moment, keep refreshing the attack status page
 
+![image](https://user-images.githubusercontent.com/60743167/173660105-3db7e760-62d2-4760-b764-46ce972113e9.png)
 
+In above image, target is added in the pending list of both the remaining VPS, after few seconds we can see ( in below image), state of both the VPS is changed from Notworking to working
+
+![image](https://user-images.githubusercontent.com/60743167/173660332-a4461713-d2c6-4dd5-a7b3-2dbbea0d2fca.png)
 
 
 
