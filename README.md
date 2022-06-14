@@ -32,4 +32,12 @@ you need to run start.sh script in the ec2 instance
 
 ![image](https://user-images.githubusercontent.com/60743167/173586053-618bfe6c-6b05-43fe-8713-ee1e50289cbf.png)
 
+and the web page will look like this
+
+![image](https://user-images.githubusercontent.com/60743167/173586811-6472b65a-52ce-4bbc-a18b-c9dad1820a87.png)
+
+From now onwards, everything will be handled on web portal only
+
+#admin tab
+
 
