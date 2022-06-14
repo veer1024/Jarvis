@@ -1,7 +1,7 @@
 #!/bin/bash
 apt-get update 1>/dev/null 2>error.txt && apt-get upgrade -y 1>/dev/null 2>error.txt 
-apt-get install python3 1>/dev/null 2>error.txt
-apt-get install pip3 1>/dev/null 2>error.txt
+apt-get -y install python3 1>/dev/null 2>error.txt
+apt  -y install python3-pip 1>/dev/null 2>error.txt
 pip3 install -r requirements.txt 1>/dev/null 2>error.txt
 python3 banner.py
 #echo -e "\e[1;31m Installation will begun shortly \e[0m" 
