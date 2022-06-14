@@ -1,6 +1,8 @@
 # Jarvis
+![jarvis first look](jarvis.png)
 ## **Description**
 ### it is a cloud/container based tool for information gathering and reconnaissance purpose , it is a combination of python automation, cronjobs, docker, apache2 and aws cloud services,it consume little amount of data for single target, it is easy to launch , it will notify you via email about the Attack Status. run on aws ( EC2 , s3 bucket , etc) , it will also push all data to S3 Bucket
+![Jarvis image](jarvis2.png)
 
 ### Attack can be triger by using web portal of Jarvis
 
@@ -22,9 +24,12 @@
 check this medium blog for the installation guide 
 > https://hackpeas.medium.com/jarvis-automated-bug-hunting-tool-reconnaissance-tool-b8071d88ecc5
 
+## How to use
+Jarvis uses web portal to handle new attack, to provide current status, and to launch new attack, and to configure/reconfigure credentials
+after the setup is done
+you need to run start.sh script in the ec2 instance
+> $ bash start.sh
 
-> https://drive.google.com/file/d/1nT7cITiK-e9SzxnPhW86oqsfNo3Su-DZ/view
+![image](https://user-images.githubusercontent.com/60743167/173586053-618bfe6c-6b05-43fe-8713-ee1e50289cbf.png)
 
-
-![jarvis](https://user-images.githubusercontent.com/60743167/132139203-5cb535ce-baeb-408e-9ca6-8819df75eb15.png)
 
