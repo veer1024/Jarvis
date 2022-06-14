@@ -125,4 +125,20 @@ you can download all the files, directly from the s3 bucket or use the download.
 
 in your local computer 
 
-> $ git clone https://github.com/veer1024/jarvis.git && cd Jarvis
+> $ git clone https://github.com/veer1024/Jarvis.git && cd Jarvis
+> $ bash bughunter_setup.sh
+
+![image](https://user-images.githubusercontent.com/60743167/173664175-d2b3470b-8ff0-4d44-9bf6-6db11fb552db.png)
+
+It will ask for bucket name, user access key and secret key. after successful run you can cross verify the creds in /etc/creds.config file
+
+To download all the collected data for example.com run the below command in the same folder
+
+> $ python3 download.py -d example.com
+
+![image](https://user-images.githubusercontent.com/60743167/173664832-821e4993-e9a1-4f15-b029-ee4959dd6387.png)
+
+you can see a new folder with name "example.com", which contains all the data collected from the attack.
+
+
+
